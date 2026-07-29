@@ -1,0 +1,9 @@
+*/ inserindo seletores para cor
+header{
+    background-color: darkgoldenrod;
+    color: azure
+}
+
+main{
+    background-color: aliceblue
+}
