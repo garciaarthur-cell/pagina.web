@@ -8,6 +8,7 @@ header{
     padding: 16px;
 }
 
+/* destaques e fontes*/
 main{
     background-color: aliceblue;
     margin: 0 auto;
@@ -16,6 +17,6 @@ main{
 }
 
 .img1{
-    width: 80px;
+    width: 100px;
     height: 80px;
 }
