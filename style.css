@@ -30,3 +30,17 @@ main {
 .txt {
     font-weight: bold;   
 }
+
+.btn-coracao {
+    padding: 12px 24px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn-like {
+padding: 12px 24px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+}
