@@ -1,5 +1,10 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
 /* inserindo seletores para cor */
-header{
+header {
     background-color: darkgoldenrod;
     color: azure;
     text-align: center;
@@ -9,18 +14,19 @@ header{
 }
 
 /* destaques e fontes*/
-main{
+main {
     background-color: aliceblue;
+    max-width: 800px;
     margin: 0 auto;
     padding: 16px;
     display: flex;
 }
 
-.img1 img{
+.img1 img {
     width: 100px;
     height: 80px;
 }
 
-.txt{
-    font-weight: bold;  
+.txt {
+    font-weight: bold;   
 }
