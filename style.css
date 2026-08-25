@@ -44,3 +44,7 @@ padding: 12px 24px;
     white-space: nowrap;
     cursor: pointer;
 }
+
+article {
+display: flex;
+}
