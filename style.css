@@ -27,6 +27,8 @@ main {
     /* Mudei de 100px para 100% para a imagem ficar larga */
     width: 100%; 
     height: auto;
+    object-fit: cover;
+    display: block;
 }
 
 .txt {
