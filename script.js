@@ -1,20 +1,19 @@
-const botoes = document.querySelectorAll("article button");
+const botoesLike = document.querySelectorAll("article button");
 const video = document.getElementById("vid1");
-const botao = document.getElementById("btao");
+const btnOpening = document.getElementById("btao");
 
-// cria a contagem individual para cada botão pois com os dois juntos a prog não tava funcionando //
-botoes.forEach((botao) => {
-    botao.addEventListener("click", function botaoClicado() {
+// tags para botões individuais, pois estavam dando erro quando juntas //
+botoesLike.forEach((btn) => {
+    btn.addEventListener("click", function () {
         console.log("fui clicado");
-        let texto = botao.querySelector("span");
+        let texto = btn.querySelector("span");
         texto.textContent = parseInt(texto.textContent) + 1;
     });
 });
 
+// Função para abrir o vídeo //
 function abrir_opening() {
-
     video.classList.remove("esconder");
     video.play();
-    // Esconde o botão //
-    botao.style.display = "none";
+    btnOpening.style.display = "none"; // Esconde o botão
 }
