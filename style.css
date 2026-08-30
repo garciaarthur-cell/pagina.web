@@ -78,5 +78,5 @@ article {
     /* Mantém os blocos um embaixo do outro */
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaçamento entre os títulos e parágrafos */
+    gap: 5px; /* Espaçamento entre os títulos e parágrafos */
 }
