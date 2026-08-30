@@ -74,10 +74,9 @@ article {
     max-width: 800px;
     margin: 10px auto;
     padding: 16px;
-    box-sizing: border-box;
 
     /* Mantém os blocos um embaixo do outro */
     display: flex;
     flex-direction: column;
-    gap: 16px; /* Espaçamento entre os títulos e parágrafos */
+    gap: 10px; /* Espaçamento entre os títulos e parágrafos */
 }
