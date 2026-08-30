@@ -80,3 +80,22 @@ article {
     flex-direction: column;
     gap: 5px; /* Espaçamento entre os títulos e parágrafos */
 }
+
+.opening9 {
+    margin-top: 15px;
+}
+
+.btao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Ocultar o vídeo inicialmente */
+.esconder {
+    display: none;
+}
