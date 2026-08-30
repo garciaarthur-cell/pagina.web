@@ -1,1 +1,2 @@
-# pagina.web
+  Este é um site com proposta autoral, todo texto foi pesquisado e debatido para ter uma opinião concreta, ideias foram autorais porém seguiram ao máximo a risca das unidades do alura. O objetivo do site foi dar importância a defender suas opiniões com argumentos fortes e opinar sobre o que gosta, motivado pela atividade pedida pela professora produzi o site, inspirado em levar o debate de hobbies e gostos a mais pessoas.
+#pagina.web
