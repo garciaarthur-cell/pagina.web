@@ -69,10 +69,15 @@ article {
     display: block;
 }
 
-.argumentos{
-     background-color: aliceblue;
+.argumentos {
+    background-color: aliceblue;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 16px;
-    display: flex; 
+    box-sizing: border-box;
+
+    /* Mantém os blocos um embaixo do outro */
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaçamento entre os títulos e parágrafos */
 }
